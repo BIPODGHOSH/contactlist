@@ -86,7 +86,7 @@ button {
   align-items: flex-end;
 }
 
-button.delete {
+.delete-btn {
   background-color: #dc3545;
   color: #ffffff;
 }

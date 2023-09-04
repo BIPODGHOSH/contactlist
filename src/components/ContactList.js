@@ -14,7 +14,12 @@ function ContactList({ contacts, handleEdit, handleDelete }) {
             <button className="edit-btn" onClick={() => handleEdit(contact)}>
               Edit
             </button>
-            <button onClick={() => handleDelete(contact.id)}>Delete</button>
+            <button
+              className="delete-btn"
+              onClick={() => handleDelete(contact.id)}
+            >
+              Delete
+            </button>
           </li>
         </div>
       ))}
