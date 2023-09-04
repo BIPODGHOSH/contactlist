@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../App.css";
 
 function EditContactForm({ contact, handleUpdate }) {
   const [name, setName] = useState(contact.name);
@@ -10,7 +11,7 @@ function EditContactForm({ contact, handleUpdate }) {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="contact-form" onSubmit={handleSubmit}>
       <input
         type="text"
         placeholder="Name"

@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-  max-width: 600px;
+  max-width: 95%;
   margin: 0 auto;
   padding: 20px;
   background-color: #ffffff;
@@ -49,12 +49,26 @@ ul {
 li {
   margin: 10px 0;
   padding: 10px;
-  background-color: #ffffff;
+  background-color: #96b2af;
   border: 1px solid #ccc;
   border-radius: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.edit-form-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  height: 80%;
+  width: 90vw;
+}
+.user-container {
+  border-radius: 10%;
+}
+.user-details {
+  width: 40%;
 }
 
 button {
@@ -64,10 +78,12 @@ button {
   cursor: pointer;
 }
 
-button.edit {
+.edit-btn {
+  display: flex;
   background-color: #28a745;
   color: #ffffff;
-  margin-right: 5px;
+  margin-left: 30%;
+  align-items: flex-end;
 }
 
 button.delete {

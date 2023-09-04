@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../App.css";
 
 function AddContactForm({ handleAdd }) {
   const [name, setName] = useState("");
